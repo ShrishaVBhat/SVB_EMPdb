@@ -1,24 +1,44 @@
 {
-  "levels": [
+  "employee": [
     {
-      "id": "1",
+      "id": "001",
       "parentId" : "",
-      "levelName": "Total Company"
+      "company": "ABC"
     },
     {
-      "id": "2",
+      "id": "002",
       "parentId" : "1",
-      "levelName": "Company D (100% Owned)"
+      "company": "ABC"
+    },
+    {
+      "id": "003",
+      "parentId" : "2",
+      "company": "ABC"
     }
   ],
-  "capitalProjects": [
+  "location": [
     {
-      "level" : "Company D (100%)",
-      "amount" : "1000"
+      "place" : "Banglore",
+      "address" : "2036"
     },
     {
-      "level" : "Company C (80% owned)",
-      "amount" : "800"
-    } 
+       "place" : "Pune",
+      "address" : "2076"
+    },
+    {
+       "place" : "Delhi",
+      "address" : "2046"
+    }  
+  ],
+  "Manager": [
+    {
+      "name" : "Svb"
+    },
+    {
+       "name" : "Bvs"
+    },
+    {
+      "name" : "Vsb"
+    }  
   ]
 }
