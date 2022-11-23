@@ -1,44 +1,24 @@
 {
   "employee": [
     {
-      "id": "001",
+      "id": "1",
       "parentId" : "",
-      "company": "ABC"
+      "Name": "Abc"
     },
     {
-      "id": "002",
+      "id": "2",
       "parentId" : "1",
-      "company": "ABC"
-    },
-    {
-      "id": "003",
-      "parentId" : "2",
-      "company": "ABC"
+      "Name": "Def"
     }
   ],
-  "location": [
+  "locationCompensation": [
     {
-      "place" : "Banglore",
-      "address" : "2036"
+      "location" : "Banglore",
+      "amount" : "1000"
     },
     {
-       "place" : "Pune",
-      "address" : "2076"
-    },
-    {
-       "place" : "Delhi",
-      "address" : "2046"
-    }  
-  ],
-  "Manager": [
-    {
-      "name" : "Svb"
-    },
-    {
-       "name" : "Bvs"
-    },
-    {
-      "name" : "Vsb"
-    }  
+      "location" : "Pune",
+      "amount" : "800"
+    } 
   ]
 }
