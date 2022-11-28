@@ -24,6 +24,10 @@
     {
       "location" : "Pune",
       "amount" : "800"
+    },
+    {
+      "location" : "Delhi",
+      "amount" : "1800"
     } 
   ],
   "Experience": [
